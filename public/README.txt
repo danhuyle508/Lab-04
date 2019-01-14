@@ -38,3 +38,14 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+Number and name of feature: #1 Add functionality 
+
+Estimate of time needed to complete: 2
+
+Start time: 9:00 AM
+
+Finish time: 12:00 PM
+
+Actual time needed to complete: 3 hours
