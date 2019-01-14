@@ -1,0 +1,119 @@
+/* Narrower */
+
+#headerToggle {
+    display: none;
+}
+/* breakpoint for tablet size */
+@media only screen and (min-width: 960px) {
+    body{
+        background: darkslategray;
+    }
+    #header{
+        background: #3faa2c;
+    }
+    .container{
+    }
+} 
+
+@media screen and (max-width: 960px) {
+
+    /* Basic */
+
+        html, body {
+            overflow-x: hidden;
+            background-color: darkslategrey;
+        }
+
+        body, input, textarea, select {
+            font-size: 16pt;
+        }
+
+        header br {
+            display: none;
+        }
+
+        .container {
+            padding: 0 2em 0 2em;
+        }
+
+    /* Item */
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+    /* Icons */
+
+        ul.icons a {
+            width: 1.75em;
+            font-size: 1.25em;
+        }
+
+    /* Header */
+        #header .top{
+            width: 100%;
+        }
+
+        #logo {
+            margin: 1.5em 1.25em 1.25em 1.25em;
+        }
+
+        #nav ul li a {
+            padding: 0.5em 1.25em 0.5em 1.25em;
+        }
+        #header{
+            width: 30%;
+            height: 70%;
+        }
+
+        body.header-visible #main {
+            -moz-transform: translateX(275px);
+            -webkit-transform: translateX(275px);
+            -ms-transform: translateX(275px);
+            transform: translateX(275px);
+        }
+
+        body.header-visible #headerToggle {
+            -moz-transform: translateX(275px);
+            -webkit-transform: translateX(275px);
+            -ms-transform: translateX(275px);
+            transform: translateX(275px);
+        }
+
+        body.header-visible #header {
+            -moz-transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+            transform: translateX(0);
+        }
+
+    /* Footer */
+
+        #footer {
+            margin-left: 0;
+        }
+
+    /* Main */
+
+        #main {
+            -moz-backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-transition: -moz-transform 0.5s ease;
+            -webkit-transition: -webkit-transform 0.5s ease;
+            -ms-transition: -ms-transform 0.5s ease;
+            transition: transform 0.5s ease;
+            padding-bottom: 1px;
+            margin-left: 0;
+        }
+
+            #main > section {
+                padding: 3em 0;
+            }
+
+            #main section.cover {
+                padding: 4em 0;
+            }
+
+}
