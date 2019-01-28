@@ -1,7 +1,7 @@
 /* Main */
 
 #main {
-    margin-left: 375px;
+    margin-left: 255px;
 }
 
     #main > section {
@@ -48,7 +48,7 @@
 
         #main > section.one {
             background-color: #81918E;
-            background-image: url("../../../images/background.jpg");
+            /* background-image: url("../../../images/background.jpg"); */
         }
 
         #main > section.two {
@@ -112,11 +112,12 @@
 
         #main section.cover {
             padding: 5em 0;
-        }
+        }    
 }
 
-@media screen and ( min-width: 800){
-    #header{
-        background-color: darkorchid;
+@media screen and ( min-width: 760px){
+    #portfolio div{
+        background-color: lightslategray;
+        color: black;
     }
 }

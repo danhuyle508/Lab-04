@@ -27,7 +27,10 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
+video{
+    width: 30vw;
+    height: 20vw;
+}
 body {
     background: #fff;
     font-family: 'Source Sans Pro', sans-serif;
